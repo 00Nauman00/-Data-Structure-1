@@ -1,6 +1,7 @@
 public class NaumanHold {
     private String buckets[];
     private int size;
+    private int RamdonVariableForCheckingCommit;
 
     public NaumanHold()
     {
