@@ -16,5 +16,16 @@ public class NaumanTest {
         Name.addToBucket("you");
         System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
         Name.printAllBucket();
+        //after this was done in GitHub and will be used to pull for HW
+         Name.addToBucket("I");
+        System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
+         Name.addToBucket("added");
+        System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
+         Name.addToBucket("this");
+        System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
+         Name.addToBucket("in");
+        System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
+         Name.addToBucket("GitHub");
+        System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
     }
 }
