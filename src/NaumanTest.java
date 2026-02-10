@@ -25,7 +25,8 @@ public class NaumanTest {
         System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
          Name.addToBucket("in");
         System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
-         Name.addToBucket("GitHub");
+         //The code on the bottom will be used for Merge Conflict
+        Name.addToBucket("MergeConflict");
         System.out.println(Name.getSize()+" Has "+Name.getBucket(Name.getSize()));
     }
 }
